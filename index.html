@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title" class="title">freeCodeCamp Survey Form</h1>
+  <p id="description" class="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label">
+      Name
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </label>
+    <label for="email-label" id="email-label">
+      Email
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </label>
+    <label for="number" id="number-label">
+      Age (optional)
+      <input type="number" id="number" name="number" placeholder="Enter your age between 13 and 120" min=13 max=120>
+    </label>
+    <label for="dropdown">
+      Which option best describes your current role?
+      <select id="dropdown" name="dropdown">
+        <option value="1">Student</option>
+        <option value="2">Full-Time Job</option>
+      </select>
+    </label>
+    </fieldset>
+    <fieldset>
+      <legend>
+        Would you recommend freeCodeCamp to a friend?
+        </legend>
+    <label for="definitely">
+        <input type="radio" name="recommendation" id="definitely" value="definitely" checked> Definitely
+    </label>
+    <label for="maybe">
+      <input type="radio" name="recommendation" id="maybe" value="maybe"> Maybe
+    </label>
+    </fieldset>
+    <fieldset>
+      <legend>
+        What would you like to see improved? (Check all that apply)
+      </legend>
+    <label for="front-end-projects">
+      <input type="checkbox" value="front-end-projects" name="front-end-projects" id="front-end-projects"> Front-End Projects
+      </label>
+      <label for="back-end-projects">
+      <input type="checkbox" value="back-end-projects" name="back-end-projects" id="back-end-projects"> Back-End Projects
+      </label>
+      <label for="data-visualization">
+        <input type="checkbox" value="data-visualization" name="data-visualization" id="data-visualization"> Data Visualization
+      </label>
+      <label for="challenges">
+        <input type="checkbox" value="challenges" name="challenges" id="challenges"> Challenges
+    </label>
+    </fieldset>
+        <label for="comments">
+      <textarea id="comments" name="comments" placeholder="Additional comments..." rows=4></textarea>
+    </label>
+    <input type="submit" id="submit" value="Submit">
+  </form>
+</body>
+</html>

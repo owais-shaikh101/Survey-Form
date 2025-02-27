@@ -1,0 +1,69 @@
+body {
+  background-color: #666666;
+  color: #DDDDDD;
+  font-family: Tahoma;
+}
+
+.title, .description {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #555555;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input {
+  width: 100%;
+  background-color: #222222;
+  color: #DDDDDD;
+  height: 1.75em;
+  margin: 0.5em 0;
+  padding: 0.25em;
+  font-size: 0.9rem;
+}
+
+select {
+  display: block;
+  background-color: #222222;
+  color: #DDDDDD;
+  height: 1.75em;
+  margin: 0.5em 0;
+  padding: 0.25em;
+  font-size: 0.9rem;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  width: unset;
+  vertical-align: middle;
+  margin: 0;
+}
+
+textarea {
+  background-color: #222222;
+  padding: 0.25em;
+  font-size: 0.9rem;
+  color: #DDDDDD;
+  width: 95%;
+  margin-left: 0.9em;
+}
+
+fieldset {
+  border: unset;
+}
+
+input[type="submit"] {
+    width: 96.5%;
+    margin-left: 0.9em;
+    background-color: #444444;
+    border: unset;
+}
