@@ -12,9 +12,14 @@ form {
   width: 50%;
   margin: 0 auto;
   background-color: #555555;
-  padding-right: 0.5em;
-  padding-top: 0.5em;
-  padding-bottom: 1em;
+  padding: 0.5em 2em;
+}
+
+fieldset {
+  border: unset;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 label {
@@ -23,7 +28,7 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 98%;
   background-color: #222222;
   color: #DDDDDD;
   height: 1.75em;
@@ -49,21 +54,14 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 textarea {
+  width: 98%;
   background-color: #222222;
   padding: 0.25em;
   font-size: 0.9rem;
   color: #DDDDDD;
-  width: 95%;
-  margin-left: 0.9em;
-}
-
-fieldset {
-  border: unset;
 }
 
 input[type="submit"] {
-    width: 96%;
-    margin-left: 1em;
+    width: 99.5%;
     background-color: #444444;
-    border: unset;
 }
