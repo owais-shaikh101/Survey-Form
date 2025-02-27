@@ -62,8 +62,8 @@ fieldset {
 }
 
 input[type="submit"] {
-    width: 96.5%;
-    margin-left: 0.9em;
+    width: 96%;
+    margin-left: 1em;
     background-color: #444444;
     border: unset;
 }
